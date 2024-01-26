@@ -1,8 +1,8 @@
 ---
 title: 幻兽帕鲁游戏配置详解
 author: Pals
-pubDatetime: 2024-01-26T11:05:51Z
-modDatetime: 2024-01-26T11:12:47.400Z
+pubDatetime: 2024-01-26T08:05:51Z
+modDatetime: 2024-01-26T08:12:47.400Z
 slug: palworld-server-config
 featured: true
 draft: false

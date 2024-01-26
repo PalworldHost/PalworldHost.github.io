@@ -1,8 +1,8 @@
 ---
-title: 【3分钟开服】幻兽帕鲁服务器一键部署保姆教程（持续更新）
+title: 【3分钟开服】幻兽帕鲁服务器一键部署保姆教程（Windows、Linux，含部署、配置游戏参数、内存优化指引）
 author: 帕鲁
 pubDatetime: 2024-01-24T03:42:51Z
-modDatetime: 2024-01-26T01:22:47.400Z
+modDatetime: 2024-01-26T09:22:47.400Z
 slug: deploy-palworld-server-in-3-minutes
 featured: true
 draft: false

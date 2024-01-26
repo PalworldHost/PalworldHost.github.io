@@ -2,7 +2,7 @@
 title: 幻兽帕鲁服务器数据备份
 author: Pals
 pubDatetime: 2024-01-26T04:05:51Z
-modDatetime: 2024-01-26T10:12:47.400Z
+modDatetime: 2024-01-26T04:12:47.400Z
 slug: backup-palworld-data
 featured: true
 draft: false
