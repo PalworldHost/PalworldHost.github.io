@@ -14,9 +14,7 @@ description: "本文旨在帮助大家了解幻兽帕鲁游戏配置的详细解
 
 幻兽帕鲁部署完成之后，如果您想要按照自己的喜好来对游戏世界进行DIY，打造个性化的私服，那么就需要通过手动配置游戏参数来完成。
 
-由于直接编辑配置文件的成本较高，且可能会因为换行、未区分中英文逗号等问题导致配置不成功，本文推荐
-
-**复制幻兽帕鲁默认的配置文件，并在此基础上仅对参数值作修改。**
+由于直接编辑配置文件的成本较高，且可能会因为换行、未区分中英文逗号等问题导致配置不成功。所以更推荐**复制幻兽帕鲁默认的配置文件，并在此基础上仅对参数值作修改。**
 
 ## Windows 操作系统
 
@@ -25,7 +23,7 @@ description: "本文旨在帮助大家了解幻兽帕鲁游戏配置的详细解
 Windows 操作系统的默认配置文件存放在以下目录中：
 
 ```shell
-C:\Program Files\PalServer\steam\steamapps\common\PalServer\DefaultPalWorldSettings.ini
+C:\\Program Files\\PalServer\\steam\\steamapps\\common\\PalServer\\DefaultPalWorldSettings.ini
 ```
 
 > 如您的幻兽帕鲁部署路径不为 `C:\Program Files\PalServer`，推荐您直接使用文件名 `DefaultPalWorldSettings.ini`，在 Windows 的文件夹内进行搜索。
@@ -34,10 +32,10 @@ C:\Program Files\PalServer\steam\steamapps\common\PalServer\DefaultPalWorldSetti
 2、选中该文件，并将文件复制到 WindowsServer 文件夹中，路径如下：
 
 ```shell
-C:\Program Files\PalServer\steam\steamapps\common\PalServer\Pal\Saved\Config\WindowsServer
+C:\\Program Files\\PalServer\\steam\\steamapps\\common\\PalServer\\Pal\\Saved\\Config\\WindowsServer
 ```
 
-> 如果您无法在上述路径下找到 WindowsServer 文件夹，那么依然推荐您进行搜索。
+> 如果您无法在上述路径下找到 `WindowsServer` 文件夹，那么依然推荐您进行搜索。
 
 
 复制完成之后，删除原有的 `PalWorldSettings.ini` 文件，并将刚刚复制的文件名修改为 `PalWorldSettings.ini`。
@@ -52,7 +50,7 @@ C:\Program Files\PalServer\steam\steamapps\common\PalServer\Pal\Saved\Config\Win
 sudo chmod 775 /home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
 ```
 
-2、使用如下命令，将默认配置文件复制到幻兽帕鲁下的 LinuxServer 目录中：
+2、使用如下命令，将默认配置文件复制到幻兽帕鲁下的 `LinuxServer` 目录中：
 
 ```shell
 sudo cp /home/steam/Steam/steamapps/common/PalServer/DefaultPalWorldSettings.ini /home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
